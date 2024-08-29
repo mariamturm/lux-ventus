@@ -69,6 +69,7 @@ body{
 
 /* first-section */
 
+
 .first-section{
     display: flex;
     flex-direction: column;
@@ -79,9 +80,10 @@ body{
     background-size: cover;
     padding-top: 218px;
     padding-bottom: 141px;
-    max-width: 1272px;
+    /* max-width: 1272px; */
     border-radius: 20px;
     margin-bottom: 73px;
+    padding-left: 57px;
 }
 
 .first-section h3{
@@ -119,7 +121,6 @@ body{
     line-height: 30px;
     color: #FFFFFF;
     max-width: 494px;
-    
 }
 
 /* topics section */
