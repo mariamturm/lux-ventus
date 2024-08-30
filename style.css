@@ -192,3 +192,43 @@ hr{
     margin-bottom: 52.5px;
 }
 
+/* lastest blog section */
+
+.latest-blog-section{
+    background-color: white;
+}
+
+.latest-first-section{
+    background-image: url(./photos/latest\ blog\ photo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1204px;
+    width: 100%;
+    margin: 0 auto;
+    /* margin-left: 38px;
+    margin-right: 38px; */
+    padding: 23.34px 0 299px 47.27px;
+    color: #FFFFFF;
+    background-color: #262626;
+    border-radius: 20px;
+    /* width: max-content; */
+    
+
+
+}
+
+.latest-first-section button{
+    color: #FFFFFF;
+    background-color: #262626;
+    border-radius: 40px;
+    padding: 10.66px 81.6px 9.31px 81.73px;
+    border-style: none;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+}
+
+
