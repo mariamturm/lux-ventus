@@ -334,4 +334,185 @@ hr{
     color: #4CE0D7;
 }
 
+/* trending section part one */
 
+.tranding-section {
+    max-width: 1204px;
+    margin: 0 auto 88px;
+}
+
+
+.tranding-title h1{
+    padding-left: 128px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #262626;
+    margin-bottom: 55px;
+}
+ 
+
+.tranding-cards {
+    display: flex;
+    gap: 49px;
+    padding: 0 118px;
+}
+
+.tranding-card {
+    box-shadow: 0px 6px 6px 0px #0000000D;
+    width: max-content;
+    background-color: white;
+    border-radius: 20px;
+    padding-bottom: 42px;
+}
+
+
+.tranding-card-button {
+    background: url(./photos/first\ blog\ photo.png);
+    padding: 20px 369px 219px 34px;
+    width: max-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.tranding-card-button a{
+    padding: 10px 50px;
+    background-color: #262626;
+    color: white;
+    border-radius: 40px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.tranding-card-first {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    margin-left: 26px;
+    margin-top: 23px;
+    color: #BCBCBC;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.tranding-card-first img {
+    border-radius: 100%;
+}
+
+.tranding-card-first div {
+    display: flex;
+    gap: 160px;
+}
+
+.tranding-card-second {
+    max-width: 430px;
+    margin-left: 26px;
+    margin-top: 29px;
+}
+
+.tranding-card-second h1 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #262626;
+}
+
+.tranding-card-second p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.tranding-card-third a{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.24em;
+    text-align: left;
+    color: #4CE0D7;
+    margin-top: 20px;
+    margin-left: 26px;
+}
+
+.tranding-card-button-second {
+    background: url(./photos/second\ blog\ photo.png);
+    padding: 20px 369px 219px 34px;
+    width: max-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+
+.tranding-card-button-second a{
+    padding: 10px 50px;
+    background-color: #262626;
+    color: white;
+    border-radius: 40px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/* footer */
+
+footer {
+    background-color: #FFFFFF; 
+    padding: 87px;
+    border-radius: 40px 40px 0 0;
+    box-shadow: 6px 0px 6px 0px #0000000D;
+}
+
+.footer-first-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-first-section img {
+    max-width: 226px; /* Adjust logo size */
+    
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+
+.footer-links h1 {
+    color: #262626;
+    margin-right: 20px;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.footer-links a img {
+    width: 31px; /* Adjust icon size */
+    height: 31px;
+}
+
+.footer-links a:hover img {
+    opacity: 0.7; /* Slight hover effect */
+}
+
+
+.footer-line hr { 
+    border: 0;
+    height: 1px;
+    background: #BCBCBC; 
+    margin: 77px auto 34px;
+    max-width: 100%; 
+}
+
+.footer-second-section p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+    color: #262626;
+}
