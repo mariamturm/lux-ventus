@@ -140,6 +140,7 @@ footer {
     background-color: #FFFFFF; 
     padding: 87px;
     border-radius: 40px 40px 0 0;
+    box-shadow: 6px 0px 6px 0px #0000000D;
 }
 
 .footer-first-section {
