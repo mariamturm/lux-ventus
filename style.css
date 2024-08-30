@@ -80,7 +80,8 @@ body{
     background-size: cover;
     padding-top: 218px;
     padding-bottom: 141px;
-    /* max-width: 1272px; */
+    /* max-width: 1272px;
+    margin: 0 auto; */
     border-radius: 20px;
     margin-bottom: 73px;
     padding-left: 57px;
