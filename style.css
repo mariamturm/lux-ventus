@@ -34,7 +34,8 @@ body{
 
 .tranding-cards {
     display: flex;
-    justify-content: space-between;
+    gap: 49px;
+    padding: 0 118px;
 }
 
 .tranding-card {
