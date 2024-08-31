@@ -44,7 +44,7 @@ body{
 
 }
 
-.nav span{
+/* .nav span{
     background-color: #4CE0D7;
     border-radius: 40px;
 }
@@ -52,7 +52,7 @@ body{
 .nav span a:hover{
     background-color: #F9F9F9;
     ;
-}
+} */
 
 .nav a:hover{
     background-color: #4CE0D7;
@@ -64,7 +64,7 @@ body{
 }
 
 .nav img:hover{
-    opacity: 0.8;
+    opacity: 0.5;
 }
 
 /* first-section */
