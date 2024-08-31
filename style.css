@@ -44,15 +44,6 @@ body{
 
 }
 
-/* .nav span{
-    background-color: #4CE0D7;
-    border-radius: 40px;
-}
-
-.nav span a:hover{
-    background-color: #F9F9F9;
-    ;
-} */
 
 .nav a:hover{
     background-color: #4CE0D7;
@@ -64,7 +55,7 @@ body{
 }
 
 .nav img:hover{
-    opacity: 0.5;
+    opacity: 0.4;
 }
 
 /* first-section */
@@ -80,11 +71,28 @@ body{
     background-size: cover;
     padding-top: 218px;
     padding-bottom: 141px;
-    /* max-width: 1272px;
-    margin: 0 auto; */
     border-radius: 20px;
     margin-bottom: 73px;
     padding-left: 57px;
+
+
+    position: relative; /* Add this */
+    overflow: hidden; /* Add this */
+}
+
+.first-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+    transition: left 0.5s ease-in-out;
+}
+
+.first-section:hover::before {
+    left: 100%;
 }
 
 .first-section h3{
