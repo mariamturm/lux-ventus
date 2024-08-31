@@ -336,125 +336,148 @@ hr{
 
 /* trending section part one */
 
-.tranding-section {
+.tranding-section{
     max-width: 1204px;
-    margin: 0 auto 88px;
+    margin: 0 auto;
+    margin-bottom: 88.2px;
+    
 }
 
+.tranding-title{
+    margin-bottom: 55.04px;
+}
 
 .tranding-title h1{
-    padding-left: 128px;
+    font-family: Poppins;
     font-size: 32px;
     font-weight: 700;
+    line-height: 48px;
+    text-align: left;
     color: #262626;
-    margin-bottom: 55px;
+    margin-left: 34px;
 }
- 
 
-.tranding-cards {
+.tranding-cards{
     display: flex;
-    gap: 49px;
-    padding: 0 118px;
+    justify-content: center;
+    gap: 84px;
+    
 }
 
-.tranding-card {
+.tranding-card-button a{
+    padding: 9.29px  49.96px 9.31px 49.86px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    color: white;
+    background-color: #262626;
+    border-radius: 40px;
+}
+
+.tranding-card-button{
+    background-image: url(./photos/first\ blog\ photo.png);
+    padding: 20.67px 369.07px 219.83px 34.14px;
+    width: max-content;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.tranding-card-button-two{
+    background-image: url(./photos/second\ blog\ photo.png);
+    padding: 20.67px 355.94px 219.83px 34.14px;
+    width: max-content;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.tranding-card-button-two a{
+    padding: 9.29px  52.06px 9.31px 53.76px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    color: white;
+    background-color: #262626;
+    border-radius: 40px;
+}
+
+.tranding-card{
     box-shadow: 0px 6px 6px 0px #0000000D;
     width: max-content;
     background-color: white;
     border-radius: 20px;
-    padding-bottom: 42px;
 }
-
-
-.tranding-card-button {
-    background: url(./photos/first\ blog\ photo.png);
-    padding: 20px 369px 219px 34px;
-    width: max-content;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 20px;
-}
-
-.tranding-card-button a{
-    padding: 10px 50px;
-    background-color: #262626;
-    color: white;
-    border-radius: 40px;
-    font-size: 12px;
-    font-weight: 700;
-}
-
-.tranding-card-first {
+.tranding-card-first{
     display: flex;
+    gap: 28.07px;
     align-items: center;
-    gap: 28px;
-    margin-left: 26px;
-    margin-top: 23px;
+    margin-left: 26.26px;
+    margin-top: 23.34px;
     color: #BCBCBC;
+    font-family: Poppins;
     font-size: 14px;
     font-weight: 400;
+    line-height: 21px;
+    text-align: left;
 }
 
-.tranding-card-first img {
-    border-radius: 100%;
-}
-
-.tranding-card-first div {
+.tranding-card-first div{
     display: flex;
     gap: 160px;
 }
 
-.tranding-card-second {
-    max-width: 430px;
-    margin-left: 26px;
-    margin-top: 29px;
+.tranding-card-first img{
+    border-radius: 100%;
 }
 
-.tranding-card-second h1 {
+.tranding-card-second{
+    max-width: 400px;
+    margin-left: 34px;
+    margin-top: 28.74px;
+}
+
+.tranding-card-second h1{
+    font-family: Poppins;
     font-size: 26px;
     font-weight: 700;
+    line-height: 39px;
+    text-align: left;
     color: #262626;
+    margin-bottom: 20.5px;
 }
 
-.tranding-card-second p {
+.tranding-card-second p{
+    font-family: Poppins;
     font-size: 16px;
     font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #262626;
 }
 
 .tranding-card-third a{
     display: flex;
+    flex-direction: row;
     align-items: center;
-    gap: 11px;
+    gap: 23.75px;
+    color: #4CE0D7;
+    margin-left: 34.75px;
+    margin-top: 29.75px;
     font-family: Poppins;
     font-size: 12px;
     font-weight: 700;
     line-height: 18px;
     letter-spacing: 0.24em;
     text-align: left;
-    color: #4CE0D7;
-    margin-top: 20px;
-    margin-left: 26px;
-}
+    padding-bottom: 45.75px;
 
-.tranding-card-button-second {
-    background: url(./photos/second\ blog\ photo.png);
-    padding: 20px 369px 219px 34px;
-    width: max-content;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 20px;
-}
-
-
-.tranding-card-button-second a{
-    padding: 10px 50px;
-    background-color: #262626;
-    color: white;
-    border-radius: 40px;
-    font-size: 12px;
-    font-weight: 700;
 }
 
 /* trending section part two */
