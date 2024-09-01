@@ -210,7 +210,7 @@ body{
     }
 
 .card:hover img {
-    transform: scale(1.4); /* Slightly enlarge image */
+    transform: scale(1.4); 
 }
 
 .card p{
@@ -397,7 +397,6 @@ hr{
 .latest-read-more:hover img,
 .latest-read-more:hover p {
     background-color: black; 
-    /* color: white;  */
     padding: 4px 8px; 
     border-radius: 4px; 
 }
@@ -492,7 +491,15 @@ hr{
     width: max-content;
     background-color: white;
     border-radius: 20px;
+    
+    transition: all 0.3s ease;
 }
+
+.tranding-card:hover {
+    transform: scale(1.05);
+    border: 2px solid #4CE0D7;
+}
+
 .tranding-card-first{
     display: flex;
     gap: 28.07px;
@@ -557,6 +564,42 @@ hr{
     text-align: left;
     padding-bottom: 45.75px;
 
+    transition: all 0.3s ease;
+
+}
+
+.tranding-card-button a,
+.tranding-card-button-two a {
+    padding: 9.29px 49.96px 9.31px 49.86px; 
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    color: white;
+    background-color: #262626;
+    border-radius: 40px;
+    text-decoration: none; 
+    transition: all 0.3s ease; 
+}
+
+.tranding-card a:hover {
+    background-color: #4CE0D7; 
+    color: black; 
+    padding: 10px; 
+    border-radius: 5px; 
+}
+
+.tranding-card-third a:hover {
+    transform: scale(1.1); 
+    background-color: black; 
+    color: white; 
+}
+
+.tranding-card-button a:hover,
+.tranding-card-button-two a:hover {
+    background-color: white; 
+    color: black; 
 }
 
 /* trending section part two */
@@ -581,9 +624,15 @@ hr{
     background: #FFFFFF;
     width: max-content;
     border-radius: 20px;
-    /* margin-bottom: 48px; */
     box-shadow: 0px 6px 6px 0px #0000000D;
 
+    transition: all 0.3s ease;
+
+}
+
+.tranding-second-card:hover {
+    transform: scale(1.05); 
+    border: 2px solid #4CE0D7; 
 }
 
 
@@ -620,7 +669,6 @@ hr{
     flex-direction: row;
     align-items: center;
     gap: 16.86px;
-    /* margin-bottom: 35px; */
     padding-top: 25.58px;
 }
 
@@ -640,10 +688,6 @@ hr{
     gap: 218px;
     color: #BCBCBC;
     padding-right: 125px;
-}
-
-.tranding-second-card-second {
-    /* margin-bottom: 29px; */
 }
 
 .tranding-second-card-second h1 {
@@ -701,17 +745,11 @@ hr{
     cursor: pointer;
 }
 
-.tranding-third-card-second {
-    /* margin-bottom: 29px; */
-}
-
 .tranding-third-card-first {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 16.86px;
-    /* margin-bottom: 35px; */
-    /* margin-right: 103px; */
     padding-top: 25.58px;
 }
 
@@ -774,8 +812,6 @@ hr{
     flex-direction: row;
     align-items: center;
     gap: 24px;
-    /* margin-bottom: 35px;
-    margin-right: 100px; */
     padding-top: 25px;
 }
 
@@ -796,9 +832,6 @@ hr{
     padding-right: 125px;
 }
 
-.tranding-fourth-card-second {
-    /* margin-bottom: 29px; */
-}
 
 .tranding-fourth-card-second h1 {
     font-size: 26px;
@@ -816,9 +849,39 @@ hr{
     color: #262626;
 }
 
+.tranding-second-card-button a:hover,
+.tranding-third-card-button a:hover,
+.tranding-fourth-card-button a:hover {
+    background-color: white; 
+    color: black; 
+    transform: scale(1.1); 
+}
+
+.tranding-second-card-button a,
+.tranding-third-card-button a,
+.tranding-fourth-card-button a {
+    transition: all 0.3s ease; 
+}
+
+.tranding-second-card-third a:hover,
+.tranding-third-card-third a:hover,
+.tranding-fourth-card-third a:hover {
+    background-color: black; 
+    color: white; 
+    transform: scale(1.1); 
+    padding: 10px; 
+}
+
+.tranding-second-card-third a,
+.tranding-third-card-third a,
+.tranding-fourth-card-third a {
+    transition: all 0.3s ease; 
+}
+
+
 /* footer */
 
-footer {
+.footer {
     background-color: #FFFFFF; 
     padding: 87px;
     border-radius: 40px 40px 0 0;
@@ -832,7 +895,7 @@ footer {
 }
 
 .footer-first-section img {
-    max-width: 226px; /* Adjust logo size */
+    max-width: 226px; 
     
 }
 
@@ -850,12 +913,12 @@ footer {
 }
 
 .footer-links a img {
-    width: 31px; /* Adjust icon size */
+    width: 31px;
     height: 31px;
 }
 
 .footer-links a:hover img {
-    opacity: 0.7; /* Slight hover effect */
+    opacity: 0.7; 
     transform: scale(1.3);
 }
 
