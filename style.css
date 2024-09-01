@@ -101,9 +101,9 @@ body{
     font-weight: 700;
     line-height: 18px;
     letter-spacing: 0.23em;
-    color: #FFFFFF;
-    
+    color: #FFFFFF; 
 }
+
 
 .first-section h1{
     font-family: Poppins;
@@ -112,7 +112,11 @@ body{
     line-height: 69px;
     color: #FFFFFF;
     
+    transition: transform 0.3s ease;
+}
 
+.first-section:hover h1 {
+    transform: scale(1.09);
 }
 
 .first-section h1 span{
