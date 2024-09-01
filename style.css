@@ -76,8 +76,8 @@ body{
     padding-left: 57px;
 
 
-    position: relative; /* Add this */
-    overflow: hidden; /* Add this */
+    position: relative; 
+    overflow: hidden; 
 }
 
 .first-section::before {
@@ -520,9 +520,19 @@ hr{
 
 /* trending section part two */
 
+.tranding-second-section{
+    max-width: 1204px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 48px 58px;
+    align-items: center;
+    margin-bottom: 69px;
+}
+
 .tranding-second-card{
     display: flex;
-    gap: 38px;  
+    gap: 45.49px;  
 }
 
 
@@ -530,7 +540,7 @@ hr{
     background: #FFFFFF;
     width: max-content;
     border-radius: 20px;
-    margin-bottom: 48px;
+    /* margin-bottom: 48px; */
     box-shadow: 0px 6px 6px 0px #0000000D;
 
 }
@@ -538,7 +548,7 @@ hr{
 
 .tranding-second-card-button {
     background: url(./photos/trending\ first.png);
-    padding: 25px 337px 304px 34px;
+    padding: 25.37px 337.55px 304.44px 34.14px;
     width: max-content;
     background-position: center;
     background-repeat: no-repeat;
@@ -548,7 +558,7 @@ hr{
 
 
 .tranding-second-card-button a{
-    padding: 10px 50px;
+    padding: 9.42px 53px 9.5px 52px;
     background-color: #262626;
     color: white;
     border-radius: 40px;
@@ -560,15 +570,17 @@ hr{
 .tranding-second-cards {
     display: flex;
     flex-direction: column;
+    gap: 35.66px 28.75px;
 }
 
 
 .tranding-second-card-first {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    gap: 16px;
-    margin-bottom: 35px;
-    padding-top: 25px;
+    gap: 16.86px;
+    /* margin-bottom: 35px; */
+    padding-top: 25.58px;
 }
 
 
@@ -578,17 +590,19 @@ hr{
 
 .tranding-second-card-first div  {
     display: flex;
+    flex-direction: row;
     font-family: Poppins;
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
     text-align: left;
-    gap: 168px;
+    gap: 218px;
     color: #BCBCBC;
+    padding-right: 125px;
 }
 
 .tranding-second-card-second {
-    margin-bottom: 29px;
+    /* margin-bottom: 29px; */
 }
 
 .tranding-second-card-second h1 {
@@ -608,10 +622,16 @@ hr{
     color: #262626;
 }
 
+.tranding-second-card-third{
+    margin-bottom: 37px;
+}
+
+
 .tranding-second-card-third a{
     display: flex;
+    flex-direction: row;
     align-items: center;
-    gap: 11px;
+    gap: 19.75px;
     font-family: Poppins;
     font-size: 12px;
     font-weight: 700;
@@ -622,7 +642,7 @@ hr{
 
 .tranding-third-card-button {
     background: url(./photos/trending\ second.png);
-    padding: 25px 335px 304px 34px;
+    padding: 25.37px 337.55px 304.44px 34.14px;
     width: max-content;
     background-position: center;
     background-repeat: no-repeat;
@@ -631,7 +651,7 @@ hr{
 }
 
 .tranding-third-card-button a{
-    padding: 10px 43px;
+    padding: 9.3px 44.5px 9.6px 43.3px;
     background-color: #262626;
     color: white;
     border-radius: 40px;
@@ -641,16 +661,17 @@ hr{
 }
 
 .tranding-third-card-second {
-    margin-bottom: 29px;
+    /* margin-bottom: 29px; */
 }
 
 .tranding-third-card-first {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    gap: 16px;
-    margin-bottom: 35px;
-    margin-right: 103px;
-    padding-top: 25px;
+    gap: 16.86px;
+    /* margin-bottom: 35px; */
+    /* margin-right: 103px; */
+    padding-top: 25.58px;
 }
 
 .tranding-third-card-first img {
@@ -659,13 +680,15 @@ hr{
 
 .tranding-third-card-first div  {
     display: flex;
+    flex-direction: row;
     font-family: Poppins;
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
     text-align: left;
-    gap: 168px;
+    gap: 218px;
     color: #BCBCBC;
+    padding-right: 125px; 
 }
 
 
@@ -687,7 +710,7 @@ hr{
 
 .tranding-fourth-card-button {
     background: url(./photos/trending\ third.png);
-    padding: 25px 345px 304px 34px;
+    padding: 25.37px 337.55px 304.44px 34.14px;
     width: max-content;
     background-position: center;
     background-repeat: no-repeat;
@@ -696,7 +719,7 @@ hr{
 }
 
 .tranding-fourth-card-button a{
-    padding: 10px 25px;
+    padding: 10.04px 25px 9.56px 26px;
     background-color: #262626;
     color: white;
     border-radius: 40px;
@@ -707,10 +730,11 @@ hr{
 
 .tranding-fourth-card-first {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    gap: 16px;
-    margin-bottom: 35px;
-    margin-right: 100px;
+    gap: 24px;
+    /* margin-bottom: 35px;
+    margin-right: 100px; */
     padding-top: 25px;
 }
 
@@ -720,17 +744,19 @@ hr{
 
 .tranding-fourth-card-first div {
     display: flex;
+    display: flex;
     font-family: Poppins;
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
     text-align: left;
-    gap: 168px;
+    gap: 218px;
     color: #BCBCBC;
+    padding-right: 125px;
 }
 
 .tranding-fourth-card-second {
-    margin-bottom: 29px;
+    /* margin-bottom: 29px; */
 }
 
 .tranding-fourth-card-second h1 {
