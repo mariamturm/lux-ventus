@@ -520,6 +520,235 @@ hr{
 
 /* trending section part two */
 
+.tranding-second-card{
+    display: flex;
+    gap: 38px;  
+}
+
+
+.tranding-second-card {
+    background: #FFFFFF;
+    width: max-content;
+    border-radius: 20px;
+    margin-bottom: 48px;
+    box-shadow: 0px 6px 6px 0px #0000000D;
+
+}
+
+
+.tranding-second-card-button {
+    background: url(./photos/trending\ first.png);
+    padding: 25px 337px 304px 34px;
+    width: max-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+
+.tranding-second-card-button a{
+    padding: 10px 50px;
+    background-color: #262626;
+    color: white;
+    border-radius: 40px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.tranding-second-cards {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.tranding-second-card-first {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 35px;
+    padding-top: 25px;
+}
+
+
+.tranding-second-card-first img {
+    border-radius: 100%;
+}
+
+.tranding-second-card-first div  {
+    display: flex;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    gap: 168px;
+    color: #BCBCBC;
+}
+
+.tranding-second-card-second {
+    margin-bottom: 29px;
+}
+
+.tranding-second-card-second h1 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #262626;
+    width: 543px;
+    height: 94px;
+}
+
+
+.tranding-second-card-second p {
+    font-size: 16px;
+    font-weight: 400;
+    width: 429px;
+    height: 73px;
+    color: #262626;
+}
+
+.tranding-second-card-third a{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.24em;
+    color: #4CE0D7;
+}
+
+.tranding-third-card-button {
+    background: url(./photos/trending\ second.png);
+    padding: 25px 335px 304px 34px;
+    width: max-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.tranding-third-card-button a{
+    padding: 10px 43px;
+    background-color: #262626;
+    color: white;
+    border-radius: 40px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.tranding-third-card-second {
+    margin-bottom: 29px;
+}
+
+.tranding-third-card-first {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 35px;
+    margin-right: 103px;
+    padding-top: 25px;
+}
+
+.tranding-third-card-first img {
+    border-radius: 100%;
+}
+
+.tranding-third-card-first div  {
+    display: flex;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    gap: 168px;
+    color: #BCBCBC;
+}
+
+
+.tranding-third-card-second h1 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #262626;
+    width: 422px;
+    height: 94px;
+}
+
+.tranding-third-card-second p {
+    font-size: 16px;
+    font-weight: 400;
+    width: 429px;
+    height: 73px;
+    color: #262626;
+}
+
+.tranding-fourth-card-button {
+    background: url(./photos/trending\ third.png);
+    padding: 25px 345px 304px 34px;
+    width: max-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.tranding-fourth-card-button a{
+    padding: 10px 25px;
+    background-color: #262626;
+    color: white;
+    border-radius: 40px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.tranding-fourth-card-first {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 35px;
+    margin-right: 100px;
+    padding-top: 25px;
+}
+
+.tranding-fourth-card-first img {
+    border-radius: 100%;
+}
+
+.tranding-fourth-card-first div {
+    display: flex;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    gap: 168px;
+    color: #BCBCBC;
+}
+
+.tranding-fourth-card-second {
+    margin-bottom: 29px;
+}
+
+.tranding-fourth-card-second h1 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #262626;
+    width: 402px;
+    height: 94px;
+}
+
+.tranding-fourth-card-second p {
+    font-size: 16px;
+    font-weight: 400;
+    width: 429px;
+    height: 73px;
+    color: #262626;
+}
+
 /* footer */
 
 footer {
