@@ -583,14 +583,15 @@ hr{
     transition: all 0.3s ease; 
 }
 
-.tranding-card a:hover {
+.tranding-card-button a:hover
+.tranding-card-button-two a:hover {
     background-color: #4CE0D7; 
     color: black; 
     padding: 10px; 
     border-radius: 5px; 
 }
 
-.tranding-card-third a:hover {
+.tranding-card-third a p:hover {
     transform: scale(1.1); 
     background-color: black; 
     color: white; 
@@ -863,9 +864,10 @@ hr{
     transition: all 0.3s ease; 
 }
 
-.tranding-second-card-third a:hover,
-.tranding-third-card-third a:hover,
-.tranding-fourth-card-third a:hover {
+
+.tranding-second-card-third p:hover,
+.tranding-third-card-third p:hover,
+.tranding-fourth-card-third p:hover {
     background-color: black; 
     color: white; 
     transform: scale(1.1); 
@@ -874,7 +876,7 @@ hr{
 
 .tranding-second-card-third a,
 .tranding-third-card-third a,
-.tranding-fourth-card-third a {
+.tranding-fourth-card-third a{
     transition: all 0.3s ease; 
 }
 
@@ -895,8 +897,14 @@ hr{
 }
 
 .footer-first-section img {
-    max-width: 226px; 
+    max-width: 226px;
     
+    transition: 0.2s;
+    
+}
+
+.footer-first-section img:hover{
+    transform: scale(1.2);
 }
 
 .footer-links {
@@ -1214,5 +1222,24 @@ hr{
 @media only screen and (max-width: 613px) {
     .footer-links{
         flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .tranding-second-card{
+        max-width: 450px;
+        
+    }
+
+    .tranding-second-card-button {
+        padding: 25.37px 256.5px 304.44px 34.14px;
+    }
+
+    .tranding-third-card-button{
+        padding: 25.37px 258.5px 304.44px 34.14px; 
+    }
+
+    .tranding-fourth-card-button{
+        padding: 25.37px 266px 304.44px 34.14px;
     }
 }
